@@ -50,7 +50,18 @@ namespace ClassTutorial
             };
 
             Science.Print();
+
+
+            //if...else example
+            var x = 5;
+            if (x == 7) 
+                { Console.WriteLine("x is 7"); }
+            else
+            { Console.WriteLine("It's all a lie!"); }
             
+
+
+
         }
     }
 }
